@@ -36,7 +36,7 @@ Before you begin, ensure you have the following configured:
 To run n8n with Cloudflare, use the following command:
 
 ```bash
-docker compose up 0d
+docker compose up -d
 ```
 
 This command will start both n8n and Cloudflared services. Cloudflared will provide a URL that tunnels to your n8n instance.
