@@ -43,7 +43,7 @@ This command will start both n8n and Cloudflared services. Cloudflared will prov
 
 ## Accessing n8n
 
-After running the Docker Compose command you can access n8n by navigating to this URL in your web browser.
+After running the Docker Compose command you can access n8n by navigating to the URL configured in Cloudflare in your web browser.
 
 ## Stopping the Application
 
