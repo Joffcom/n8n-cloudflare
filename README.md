@@ -20,12 +20,12 @@ Before you begin, ensure you have the following configured:
 
 2. **Cloudflare Configuration**
 
-   Access the Tunnel configuration page in Cloudflare under Zero Trust > Networks > Tunnels
-   Click Create Tunnel and select `Cloudflared` as the Connector
-   Give your tunnel a name, This name is used for you to identify the tunnel and won't be part of the domain
-   Copy your access token and put it in the `.env` file replacing `your_tunnel_token`
-   Configure your subdomain place this in the `.env` file replacing `https://n8n.your-domain.com`
-   For the Service select `http` and set the url to `n8n:5678` this is used for the tunnel routing.
+   - Access the Tunnel configuration page in Cloudflare under Zero Trust > Networks > Tunnels
+   - Click Create Tunnel and select `Cloudflared` as the Connector
+   - Give your tunnel a name, This name is used for you to identify the tunnel and won't be part of the domain
+   - Copy your access token and put it in the `.env` file replacing `your_tunnel_token`
+   - Configure your subdomain place this in the `.env` file replacing `https://n8n.your-domain.com`
+   - For the Service select `http` and set the url to `n8n:5678` this is used for the tunnel routing.
 
 3. **Configure n8n**
 
