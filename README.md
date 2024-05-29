@@ -15,7 +15,7 @@ Before you begin, ensure you have the following configured:
 
    Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/joffcom/n8n-cloudflared.git
+   git clone https://github.com/joffcom/n8n-cloudflare.git
    ```
 
 2. **Cloudflare Configuration**
